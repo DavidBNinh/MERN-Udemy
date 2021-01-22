@@ -1,5 +1,5 @@
 {
     "mongoURI": "mongodb+srv://bonn123:bonn123@devconnector.zvqcm.mongodb.net/<dbname>?retryWrites=true&w=majority",
     "jwtSecret": "mysecrettoken",
-    "githubToken": "823175c9e5b8c633e18c408a79e4fdc24aca83c0"
+    "githubToken": "7185ed37423380698fd4100d7b1bb2864c319015"
 }
