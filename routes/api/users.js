@@ -54,10 +54,8 @@ router.post('/',
         // encrypts pw
 
         const payload = {
-          user: {
-            id: user.id
-          }
-        }
+          user: { id: user.id }
+        };
 
         jwt.sign(
           payload, 
