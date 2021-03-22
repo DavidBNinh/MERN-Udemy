@@ -9,6 +9,7 @@ const normalize = require('normalize-url');
 
 const Profile = require('../../models/Profile');
 const User = require('../../models/User');
+const Post = require('../../models/Post');
 
 //Before every route you want to put 3 things(
 //@route    GET api/profile/me
@@ -134,7 +135,8 @@ router.get('/user/:user_id', async ({ params: { user_id } }, res) => {
 // @access   Private
 router.delete('/', auth, async (req, res) => {
   try {
-    // Todo - Remove user posts
+    // Remove user posts
+    await Post.deleteMany({ user: req.user.id });
     // Remove profile
     // Remove user
     await Profile.findOneAndRemove({ user: req.user.id });
