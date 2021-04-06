@@ -1,8 +1,7 @@
 {
     "mongoURI": "mongodb+srv://bonn123:bonn123@devconnector.zvqcm.mongodb.net/<dbname>?retryWrites=true&w=majority",
     "jwtSecret": "mysecrettoken",
-    "githubToken": "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",
+    "githubToken": "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",
     "githubClientId": "66a80c5c5a1504cd8af3",
-    "githubSecret": "5ba4ae0f603ca9564f09fe45d0e09afd1850e293",
-    "OAUTH-TOKEN": "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"
+    "githubSecret": "5ba4ae0f603ca9564f09fe45d0e09afd1850e293"
 }
