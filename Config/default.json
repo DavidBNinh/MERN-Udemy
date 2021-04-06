@@ -1,7 +1,7 @@
 {
     "mongoURI": "mongodb+srv://bonn123:bonn123@devconnector.zvqcm.mongodb.net/<dbname>?retryWrites=true&w=majority",
     "jwtSecret": "mysecrettoken",
-    "githubToken": "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",
+    "githubToken": "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",
     "githubClientId": "66a80c5c5a1504cd8af3",
     "githubSecret": "5ba4ae0f603ca9564f09fe45d0e09afd1850e293"
 }
